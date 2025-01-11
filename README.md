@@ -10,6 +10,15 @@ A Python-based web scraper for collecting NFL game and player statistics from Pr
 - Handles rate limiting and retries
 - Saves data in CSV format
 
+Important Note
+This project is for research and learning purposes only, not for commercial use. Please respect Pro Football Reference's terms of service and data usage policies.
+Schedule Data Requirements
+The project includes the 2024 NFL schedule CSV in the resources directory. If you want to use this scraper for a different season:
+
+Download the season's schedule from Pro Football Reference
+Save it as nfl_schedule_YYYY.csv in the resources directory
+Ensure it has the required columns: Week, Day, Date, Time, Winner/tie, Loser/tie, PtsW, PtsL
+
 ## Installation
 
 1. Clone the repository:
