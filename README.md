@@ -15,7 +15,7 @@ A Python-based web scraper for collecting NFL game and player statistics from Pr
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/nflStats-webscrape.git
+git clone https://github.com/pmprowse/nflStatsWebscraper.git
 cd nflStats-webscrape
 ```
 
@@ -132,8 +132,8 @@ nflStats-webscrape/
 ├── resources/
 │   └── nfl_schedule_2024.csv
 ├── output/
-│   ├── nfl_schedule_2024_week_1_20250111.csv
-│   └── nfl_game_stats_2024_week_1.csv
+│   ├── nfl_schedule_2024_week_*.csv
+│   └── nfl_game_stats_2024_week_*.csv
 ├── run_scraper.py
 ├── requirements.txt
 └── README.md
@@ -145,10 +145,7 @@ nflStats-webscrape/
 - All times are in local timezone of the home team
 - Team abbreviations follow Pro Football Reference's convention
 
-## License
-
-[Your chosen license]
 
 ## Contributing
 
-[Your contribution guidelines]
+Feel free to fork and add any addition analyses. 
